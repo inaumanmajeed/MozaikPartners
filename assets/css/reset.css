@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* ===== Reset CSS ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: white;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Montserrat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+/* ===== Custom CSS for scrollbar ===== */
+
+::-webkit-scrollbar {
+  width: 4px;
+  transition: opacity 0.5s;
+  opacity: 1;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #dddddd;
+  -webkit-border-radius: 10px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 4px;
+  background: #5d5d5d56;
+}
+
+/* Default h tags */
+
+h1 {
+  font-family: Montserrat;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100.87px;
+  color: #ffffff;
+}
+h2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.08px;
+  color: #ffffff;
+}
+h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
+h4 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #ffffff;
+}
