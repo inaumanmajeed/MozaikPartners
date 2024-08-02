@@ -87,7 +87,6 @@
   line-height: 27px;
   text-align: left;
   color: #ffffff;
-
 }
 
 .menu__nav li:not(:last-child) a::after {
